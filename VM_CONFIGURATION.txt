@@ -7,14 +7,14 @@ vm 2 nat 192.168.80.175
 
 
 password of admin 
-Yash@1311
+
 
 email yashpatil1311003@gmail.com
 Yash Nilkanth Patil 
 
 
 ossim 
-Yash@1311
+
 key of Linux machine 
 Agent key information for '001' is:
 
@@ -27,4 +27,4 @@ Agent key information for '2' is:
 MiBIb3N0LTE5Mi0xNjgtMTAtMTEwIDE5Mi4xNjguMTAuMTEwIGFmYjcxZjJiMjkyZTI0MjhmOGRjNjc4M2Q1NmYzNzMwNDBjZGVjMWExMTJhNjNjZWFlYmM0YWZlYzQwOTQ2ODM=
 
 OpenWebui password
-yash@1311
+
