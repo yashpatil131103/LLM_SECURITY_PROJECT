@@ -6,7 +6,10 @@
 > **Architecture Diagram**  
 > <!-- ADD ARCHITECTURE IMAGE HERE -->
 > <!-- You can place your architecture diagram image here -->
-![Alt text describing the image](working\Systemarchiteture.drawio.png)
+<p align="center">
+  <img src="working\Systemarchiteture.drawio.png" alt="Centered image">
+</p>
+
 
 
 The architecture follows a layered security approach where the frontend, gateway, policy engine, and LLM backend are isolated and controlled through strict access rules.
