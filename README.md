@@ -123,8 +123,9 @@ The policy engine acts as a **decision layer** between the gateway and the LLM.
 - Path-based routing enforced  
 
 **NGINX hosting website properly**  
-![NGINX Hosting](working\Nginx_working_propely_hosting_website.png)
-
+<p align="center">
+  <img src="working\Nginx_working_propely_hosting_website.png" alt="Centered image">
+</p>
 ---
 
 ### 2. Rate Limiting (DoS Protection)
@@ -134,14 +135,17 @@ The policy engine acts as a **decision layer** between the gateway and the LLM.
 - Excess requests blocked automatically  
 
 **Rate limiting logs**  
-![Rate Limiting Logs](attack\logs_of_rate_limiting_after_reloadingMultipleTimes.png)
-
+<p align="center">
+  <img src="attack\logs_of_rate_limiting_after_reloadingMultipleTimes.png" alt="Centered image">
+</p>
 **Attack stopped due to rate limiting**  
-![Rate Limit Stopped Attack](attack\rate_limting_stoped_the_atttack.png)
-
+<p align="center">
+  <img src="attack\rate_limting_stoped_the_atttack.png" alt="Centered image">
+</p>
 **Attacker testing rate limiting**  
-![Attacker Rate Limit Test](attack\check_ratelimmting_using_the_attacker.png)
-
+<p align="center">
+  <img src="attack\check_ratelimmting_using_the_attacker.png" alt="Centered image">
+</p>
 ---
 
 ### 3. LLM Guardrails (Prompt Injection Protection)
@@ -152,11 +156,14 @@ Guardrails block:
 - System instruction bypass attempts  
 
 **Local guardrails blocking prompts**  
-![Local Guardrails](attack\local_llm_guardrail_working_blocaking_prompts.png)
-
+<p align="center">
+  <img src="attack\local_llm_guardrail_working_blocaking_prompts.png" alt="Centered image">
+</p>
 **Attacker blocked by guardrails**  
-![Guardrails Blocking Attacker](attack\attacker_blocked_promts_byguardrail.png)
 
+<p align="center">
+  <img src="attack\attacker_blocked_promts_byguardrail.png" alt="Centered image">
+</p>
 ---
 
 ### 4. CLI vs Web Access Control
@@ -166,14 +173,17 @@ Guardrails block:
 - UI cannot bypass gateway rules  
 
 **LLM working locally**  
-![Local LLM](working\locally_verfired_llm_working.png)
-
+<p align="center">
+  <img src="working\locally_verfired_llm_working.png" alt="Centered image">
+</p>
 **Frontend tested locally**  
-![Frontend Test](working\Frontend_server_tested_locally_sendsprompts.png)
-
+<p align="center">
+  <img src="working\Frontend_server_tested_locally_sendsprompts.png" alt="Centered image">
+</p>
 **Attacker can get response only via allowed path**  
-![Attacker Curl](attack\attacker_can_get_prompts_curl.png)
-
+<p align="center">
+  <img src="attack\attacker_can_get_prompts_curl.png" alt="Centered image">
+</p>
 ---
 
 ### 5. Open WebUI Backend Enforcement
@@ -181,8 +191,10 @@ Guardrails block:
 Frontend-only access is blocked if the backend is not properly routed.
 
 **Backend required error**  
-![Backend Required](working\web_working_frontend__attacker_gets_promt_to.png)
 
+<p align="center">
+  <img src="working\web_working_frontend__attacker_gets_promt_to.png" alt="Centered image">
+</p>
 ---
 
 ## Monitoring and Detection
@@ -193,11 +205,15 @@ Frontend-only access is blocked if the backend is not properly routed.
 - Integrated with AlienVault OSSIM  
 
 **OSSIM Integration**  
-![OSSIM](working\XCA_NGINX_workingProperly.png)
 
+<p align="center">
+  <img src="working\XCA_NGINX_workingProperly.png" alt="Centered image">
+</p>
 **Certificate Authority Setup**  
-![CA Setup](working\XCA_DONE.png)
 
+<p align="center">
+  <img src="working\XCA_DONE.png" alt="Centered image">
+</p>
 ---
 
 ## OWASP Top 10 for LLMs – Mapping
