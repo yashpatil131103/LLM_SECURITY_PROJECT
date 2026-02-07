@@ -123,7 +123,7 @@ The policy engine acts as a **decision layer** between the gateway and the LLM.
 - Path-based routing enforced  
 
 **NGINX hosting website properly**  
-![NGINX Hosting](Nginx_working_propely_hosting_website.png)
+![NGINX Hosting](working\Nginx_working_propely_hosting_website.png)
 
 ---
 
@@ -134,13 +134,13 @@ The policy engine acts as a **decision layer** between the gateway and the LLM.
 - Excess requests blocked automatically  
 
 **Rate limiting logs**  
-![Rate Limiting Logs](logs_of_rate_limiting_after_reloadingMultipleTimes.png)
+![Rate Limiting Logs](attack\logs_of_rate_limiting_after_reloadingMultipleTimes.png)
 
 **Attack stopped due to rate limiting**  
-![Rate Limit Stopped Attack](rate_limting_stoped_the_atttack.png)
+![Rate Limit Stopped Attack](attack\rate_limting_stoped_the_atttack.png)
 
 **Attacker testing rate limiting**  
-![Attacker Rate Limit Test](check_ratelimmting_using_the_attacker.png)
+![Attacker Rate Limit Test](attack\check_ratelimmting_using_the_attacker.png)
 
 ---
 
@@ -152,10 +152,10 @@ Guardrails block:
 - System instruction bypass attempts  
 
 **Local guardrails blocking prompts**  
-![Local Guardrails](local_llm_guardrail_working_blocaking_prompts.png)
+![Local Guardrails](attack\local_llm_guardrail_working_blocaking_prompts.png)
 
 **Attacker blocked by guardrails**  
-![Guardrails Blocking Attacker](attacker_blocked_promts_byguardrail.png)
+![Guardrails Blocking Attacker](attack\attacker_blocked_promts_byguardrail.png)
 
 ---
 
@@ -166,13 +166,13 @@ Guardrails block:
 - UI cannot bypass gateway rules  
 
 **LLM working locally**  
-![Local LLM](locally_verfired_llm_working.png)
+![Local LLM](working\locally_verfired_llm_working.png)
 
 **Frontend tested locally**  
-![Frontend Test](Frontend_server_tested_locally_sendsprompts.png)
+![Frontend Test](working\Frontend_server_tested_locally_sendsprompts.png)
 
 **Attacker can get response only via allowed path**  
-![Attacker Curl](attacker_can_get_prompts_curl.png)
+![Attacker Curl](attack\attacker_can_get_prompts_curl.png)
 
 ---
 
@@ -181,7 +181,7 @@ Guardrails block:
 Frontend-only access is blocked if the backend is not properly routed.
 
 **Backend required error**  
-![Backend Required](web_working_frontend__attacker_gets_promt_to.png)
+![Backend Required](working\web_working_frontend__attacker_gets_promt_to.png)
 
 ---
 
@@ -193,10 +193,10 @@ Frontend-only access is blocked if the backend is not properly routed.
 - Integrated with AlienVault OSSIM  
 
 **OSSIM Integration**  
-![OSSIM](XCA_NGINX_workingProperly.png)
+![OSSIM](working\XCA_NGINX_workingProperly.png)
 
 **Certificate Authority Setup**  
-![CA Setup](XCA_DONE.png)
+![CA Setup](working\XCA_DONE.png)
 
 ---
 
